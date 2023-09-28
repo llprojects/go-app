@@ -1,0 +1,7 @@
+app-name: go-app
+cluster-endpoint: null
+container-registry: ghcr.io/llprojects
+default-branch: main
+dockerfile-name: null
+registry-user: null
+runtime-version: null
