@@ -20,6 +20,7 @@ jobs:
         with:
           args: onbranch
         env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           INITIUM_REGISTRY_USER: ${{ github.actor }}
           INITIUM_REGISTRY_PASSWORD: ${{ secrets.GITHUB_TOKEN }}
           INITIUM_CLUSTER_ENDPOINT: ${{ secrets.CLUSTER_ENDPOINT }}
